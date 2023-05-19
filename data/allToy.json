@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "toy_name": "TurboTron",
+        "image": "https://example.com/toy_image.jpg",
+        "price": 29.99,
+        "rating": 4.5,
+        "availableQuantity": 10,
+        "description": "The Super Robot is an advanced programmable toy with interactive features.",
+        "category": "Car Robots",
+        "sellerName": "Toy Store Inc.",
+        "sellerEmail": "sales@toystore.com"
+      },
+    {
+        "id": 2,
+        "toy_name": "Super Robot",
+        "image": "https://example.com/toy_image.jpg",
+        "price": 29.99,
+        "rating": 4.5,
+        "availableQuantity": 10,
+        "description": "The Super Robot is an advanced programmable toy with interactive features.",
+        "category": "Fighter Robots",
+        "sellerName": "Toy Store Inc.",
+        "sellerEmail": "sales@toystore.com"
+      },
+    {
+        "id": 3,
+        "toy_name": "Speed Monster",
+        "image": "https://example.com/toy_image.jpg",
+        "price": 29.99,
+        "rating": 4.5,
+        "availableQuantity": 10,
+        "description": "The Super Robot is an advanced programmable toy with interactive features.",
+        "category": "Car Robots",
+        "sellerName": "Toy Store Inc.",
+        "sellerEmail": "sales@toystore.com"
+      },
+    {
+        "id": 4,
+        "toy_name": "Super Robot",
+        "image": "https://example.com/toy_image.jpg",
+        "price": 29.99,
+        "rating": 4.5,
+        "availableQuantity": 10,
+        "description": "The Super Robot is an advanced programmable toy with interactive features.",
+        "category": "Fighter Robots",
+        "sellerName": "Toy Store Inc.",
+        "sellerEmail": "sales@toystore.com"
+      },
+    {
+        "id": 5,
+        "toy_name": "Super Robot",
+        "image": "https://example.com/toy_image.jpg",
+        "price": 29.99,
+        "rating": 4.5,
+        "availableQuantity": 10,
+        "description": "The Super Robot is an advanced programmable toy with interactive features.",
+        "category": "Robots",
+        "sellerName": "Toy Store Inc.",
+        "sellerEmail": "sales@toystore.com"
+      },
+    {
+        "id": 6,
+        "toy_name": "Super Robot",
+        "image": "https://example.com/toy_image.jpg",
+        "price": 29.99,
+        "rating": 4.5,
+        "availableQuantity": 10,
+        "description": "The Super Robot is an advanced programmable toy with interactive features.",
+        "category": "Robots",
+        "sellerName": "Toy Store Inc.",
+        "sellerEmail": "sales@toystore.com"
+      },
+    {
+        "id": 7,
+        "toy_name": "RoboVroom",
+        "image": "https://example.com/toy_image.jpg",
+        "price": 29.99,
+        "rating": 4.5,
+        "availableQuantity": 10,
+        "description": "The Super Robot is an advanced programmable toy with interactive features.",
+        "category": "Car Robots",
+        "sellerName": "Toy Store Inc.",
+        "sellerEmail": "sales@toystore.com"
+      },
+    {
+        "id": 8,
+        "toy_name": "Super Robot",
+        "image": "https://example.com/toy_image.jpg",
+        "price": 29.99,
+        "rating": 4.5,
+        "availableQuantity": 10,
+        "description": "The Super Robot is an advanced programmable toy with interactive features.",
+        "category": "Robots",
+        "sellerName": "Toy Store Inc.",
+        "sellerEmail": "sales@toystore.com"
+      },
+    {
+        "id": 9,
+        "toy_name": "GearShift King",
+        "image": "https://example.com/toy_image.jpg",
+        "price": 29.99,
+        "rating": 4.5,
+        "availableQuantity": 10,
+        "description": "The Super Robot is an advanced programmable toy with interactive features.",
+        "category": "Car Robots",
+        "sellerName": "Toy Store Inc.",
+        "sellerEmail": "sales@toystore.com"
+      },
+    {
+        "id": 10,
+        "toy_name": "Super Robot",
+        "image": "https://example.com/toy_image.jpg",
+        "price": 29.99,
+        "rating": 4.5,
+        "availableQuantity": 10,
+        "description": "The Super Robot is an advanced programmable toy with interactive features.",
+        "category": "Fighter Robots",
+        "sellerName": "Toy Store Inc.",
+        "sellerEmail": "sales@toystore.com"
+      }
+      
+]
