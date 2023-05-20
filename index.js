@@ -32,6 +32,14 @@ async function run() {
     const toyCollection = client.db('roboKingdom').collection('toys');
 
 
+    app.post('/addToys', async(req, res) =>{
+        const body = req.body;
+
+        const result = await toyCollection.insertOne(body);
+        console.log(result);
+        res.send(result);
+    });
+
     app.get('/toys', async(req, res) => {
         const cursor = toyCollection.find();
         const result = await cursor.toArray();
@@ -59,8 +67,8 @@ run().catch(console.dir);
 
 app.get('/', (req, res) => {
     res.send('Robot is running on server');
-})
+});
 
 app.listen(port, () =>{
     console.log(`Robot is running in port ${port}`);
-})
+});
