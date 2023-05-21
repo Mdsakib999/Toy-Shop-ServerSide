@@ -31,6 +31,22 @@ async function run() {
 
     const toyCollection = client.db('roboKingdom').collection('toys');
 
+    // const indexKeys = { toy_name: 1 };
+    // const indexOptions = { name: "toysName" };
+    // const result = await jobsCollection.createIndex(indexKeys, indexOptions);
+
+    app.get('/toySearchByName/:text', async(req, res) =>{
+      const searchText = req.params.text;
+
+      const result = await toyCollection.find({
+        $or: [
+          {toy_name: {$regex: searchText, $options: "i"}}
+        ],
+      }).toArray();
+      res.send(result);
+
+    });
+
 
     app.post('/addToys', async(req, res) =>{
         const body = req.body;
