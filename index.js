@@ -96,7 +96,7 @@ async function run() {
     });
 
 
-
+// category wise toy
     app.get('/toys/:category', async(req, res) => {
 
         if(req.params.category =="Car Robots" || req.params.category =="Fighter Robots" || req.params.category =="Robo Animal") {
@@ -108,6 +108,7 @@ async function run() {
         res.send(result);
     });
 
+    // single toy search using ID
     app.get('/singleToys/:id', async(req, res) =>{
       const id = req.params.id;
       const query = {_id: new ObjectId(id)}
